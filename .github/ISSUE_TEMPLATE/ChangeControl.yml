@@ -16,6 +16,20 @@ body:
         Day (DD): This two-digit number indicates the day of the month on which the ID was created, from 01 to 31 based on the month and year.
         Hour (HH): This two-digit component reflects the hour when the ID was generated, based on a 24-hour clock format, ranging from 00 to 23.
         Minute (MM): Lastly, this two-digit section captures the minute of the hour during which the ID was created, ranging from 00 to 59.  
+        The Unique ID will also be used as Date of Submission.
       placeholder: YYYYMMDDHHMM
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Change Owner:** will be the accounts assigned in the Issue Assignee field.  At a minimum it should identify the person requesting and performing the change.
+  - type: markdown
+    attributes:
+      description: |
+        Set the priority of the change.
+      value: |
+       - [] Low  
+       - [] Normal    
+       - [] High  
+       - [] Very High (Emergency Change)  
