@@ -37,6 +37,7 @@ body:
   - type: textarea
     id: referencechangeproposal
     attributes:
+      label: Reference to Change Proposal
       description: If the Change is related to a Change Proposal submitted at an earlier stage, identify it here or indicate N/A.
       value: "N/A"
     validations:
