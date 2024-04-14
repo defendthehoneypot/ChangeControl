@@ -1,6 +1,6 @@
 name: Change Request
 description: Request a change
-title: Update with something meaningful
+title: Update with Change Title
 body:
   - type: markdown
     attributes:
@@ -11,8 +11,11 @@ body:
     attributes:
       label: Unique ID
       description: |
-        * Date Component (yyyymmdd): This part of the ID is composed of 8 digits representing the year (yyyy), month (mm), and day (dd). This provides a date-based structure to the ID, helping in organizing or sorting the IDs chronologically. For example, for April 14, 2024, this part would be 20240414.
-        * Identifier Component (xx): Following the date, there is a hyphen (-) and then a two-digit identifier (xx). This section can be used to differentiate multiple IDs created on the same date. It can be a sequential number starting from 01 and increasing with each new ID generated on the same day, or it could represent other categorizations or classifications relevant to your specific needs.
-      placeholder: 20240414-01
+        Year (YYYY): This four-digit component specifies the year when the ID was generated, offering clarity on the temporal context of the ID over a long span of time.
+        Month (MM): Following the year, this two-digit component represents the month, ranging from 01 (January) to 12 (December), allowing the IDs to be sorted or filtered by month.
+        Day (DD): This two-digit number indicates the day of the month on which the ID was created, from 01 to 31 based on the month and year.
+        Hour (HH): This two-digit component reflects the hour when the ID was generated, based on a 24-hour clock format, ranging from 00 to 23.
+        Minute (MM): Lastly, this two-digit section captures the minute of the hour during which the ID was created, ranging from 00 to 59.  
+      placeholder: 202404140700
     validations:
       required: true
