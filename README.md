@@ -1,2 +1,1 @@
-# ChangeControl
-Change Control Issue Template
+# Issue Templates
