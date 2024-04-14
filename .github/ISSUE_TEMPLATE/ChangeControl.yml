@@ -24,11 +24,13 @@ body:
     attributes:
       value: |
         **Change Owner:** will be the accounts assigned in the Issue Assignee field.  At a minimum it should identify the person requesting and performing the change.
-  - type: markdown
+  - type: dropdown
+    id: priority
     attributes:
-      value: |
-        Set the priority of the change.
-        - [ ] Low  
-        - [ ] Normal    
-        - [ ] High  
-        - [ ] Very High (Emergency Change)  
+      label: Set the priority of the change.
+      multiple: false
+      options:
+        - Low  
+        - Normal    
+        - High  
+        - Very High (Emergency Change)  
