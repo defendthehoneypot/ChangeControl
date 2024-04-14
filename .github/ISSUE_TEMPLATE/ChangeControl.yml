@@ -6,3 +6,13 @@ body:
     attributes:
     value: |
       **Overview**: The Request for Change (RFC) is formal request for the implementation of a Change. A Request for Change is to be submitted to Change Management for any non-standard Change (a set of standard/ routine Changes is usually defined by Change Management; these are minor Changes which do not require submission to the Change Management process). A Change is backed by a Change Owner, holding a budget for its implementation. In many cases the Change Owner is identical with the RFC initiator. Typically Changes are owned by Service Management roles (e.g. the Problem Manager or Capacity Manager) or by IT management. The RFC is a precursor to the Change Record and contains all information required to approve a Change. Further information is added as the Change progresses through its lifecycle. The level of detail depends on the size and likely impact of the Change. Often there will be references to further documents containing more detailed information, e.g. a detailed Change proposal. As major Changes are typically implemented as projects, the RFC often takes on the role of what is also known as a "Project Charter".
+  - type: input
+    id: uniqueid
+    attributes:
+      label: Unique ID
+      description: |
+        * Date Component (yyyymmdd): This part of the ID is composed of 8 digits representing the year (yyyy), month (mm), and day (dd). This provides a date-based structure to the ID, helping in organizing or sorting the IDs chronologically. For example, for April 14, 2024, this part would be 20240414.
+        * Identifier Component (xx): Following the date, there is a hyphen (-) and then a two-digit identifier (xx). This section can be used to differentiate multiple IDs created on the same date. It can be a sequential number starting from 01 and increasing with each new ID generated on the same day, or it could represent other categorizations or classifications relevant to your specific needs.
+      placeholder: 20240414-01
+    validations:
+      required: true
