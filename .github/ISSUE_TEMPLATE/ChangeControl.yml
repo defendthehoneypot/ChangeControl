@@ -9,7 +9,7 @@ body:
   - type: input
     id: uniqueid
     attributes:
-      label: Unique ID:
+      label: Unique ID
       description: |
         Year (YYYY): This four-digit component specifies the year when the ID was generated, offering clarity on the temporal context of the ID over a long span of time.
         Month (MM): Following the year, this two-digit component represents the month, ranging from 01 (January) to 12 (December), allowing the IDs to be sorted or filtered by month.
@@ -27,7 +27,7 @@ body:
   - type: dropdown
     id: priority
     attributes:
-      label: Set the priority of the change:
+      label: Set the priority of the change
       multiple: false
       options:
         - Low  
@@ -37,7 +37,7 @@ body:
   - type: textarea
     id: referencechangeproposal
     attributes:
-      label: Reference to Change Proposal:
+      label: Reference to Change Proposal
       description: If the Change is related to a Change Proposal submitted at an earlier stage, identify it here or indicate N/A.
       value: "N/A"
     validations:
@@ -45,7 +45,7 @@ body:
   - type: textarea
     id: descriptionofchange
     attributes:
-      label: Description of the Change being applied for:
+      label: Description of the Change being applied for
       description: Write a short description of the change being implemented
       value: "N/A"
     validations:
