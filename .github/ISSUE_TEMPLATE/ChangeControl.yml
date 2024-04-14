@@ -16,6 +16,6 @@ body:
         Day (DD): This two-digit number indicates the day of the month on which the ID was created, from 01 to 31 based on the month and year.
         Hour (HH): This two-digit component reflects the hour when the ID was generated, based on a 24-hour clock format, ranging from 00 to 23.
         Minute (MM): Lastly, this two-digit section captures the minute of the hour during which the ID was created, ranging from 00 to 59.  
-      placeholder: 202404140700
+      placeholder: YYYYMMDDHHMM
     validations:
       required: true
