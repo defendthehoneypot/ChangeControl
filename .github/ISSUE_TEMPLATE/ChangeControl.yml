@@ -23,7 +23,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Change Owner:** will be the accounts assigned in the Issue Assignee field.  At a minimum it should identify the person requesting and performing the change.
+        **Change Owner:** will be the accounts assigned in the Issue Assignees section.  At a minimum it should identify the person requesting and performing the change.
   - type: dropdown
     id: priority
     attributes:
