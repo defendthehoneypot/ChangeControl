@@ -28,7 +28,7 @@ body:
     attributes:
       value: |
         Set the priority of the change.
-        - [] Low  
-        - [] Normal    
-        - [] High  
-        - [] Very High (Emergency Change)  
+        - [ ] Low  
+        - [ ] Normal    
+        - [ ] High  
+        - [ ] Very High (Emergency Change)  
