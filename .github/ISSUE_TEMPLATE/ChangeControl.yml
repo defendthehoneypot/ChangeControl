@@ -13,6 +13,7 @@ body:
       value: |
         ### Change Status  
         Set the Change Status by applying the appropriate label(Emergency, Scheduled, and Completed).  
+        ![Change Status](https://raw.githubusercontent.com/defendthehoneypot/ChangeControl/main/images/changestatus.png)
   - type: markdown
     attributes:
       value: |
