@@ -7,7 +7,7 @@ body:
       value: |
         ### Risk Level  
         Set the Risk Level by applying the appropriate label(Low, Medium or High).  
-        ![Risk Level](../../images/risklevel.png)
+        ![Risk Level](https://raw.githubusercontent.com/defendthehoneypot/ChangeControl/main/images/risklevel.png)
   - type: markdown
     attributes:
       value: |
