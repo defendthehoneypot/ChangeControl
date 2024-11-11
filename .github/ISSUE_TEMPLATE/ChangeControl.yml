@@ -5,21 +5,15 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Overview:** The Request for Change (RFC) is formal request for the implementation of a Change. A Request for Change is to be submitted to Change Management for any non-standard Change (a set of standard/ routine Changes is usually defined by Change Management; these are minor Changes which do not require submission to the Change Management process). A Change is backed by a Change Owner, holding a budget for its implementation. In many cases the Change Owner is identical with the RFC initiator. Typically Changes are owned by Service Management roles (e.g. the Problem Manager or Capacity Manager) or by IT management. The RFC is a precursor to the Change Record and contains all information required to approve a Change. Further information is added as the Change progresses through its lifecycle. The level of detail depends on the size and likely impact of the Change. Often there will be references to further documents containing more detailed information, e.g. a detailed Change proposal. As major Changes are typically implemented as projects, the RFC often takes on the role of what is also known as a "Project Charter".
-  - type: input
-    id: uniqueid
+        **Risk Level** Set the Risk Level by applying the appropriate label(Low, Medium or High).
+  - type: markdown
     attributes:
-      label: Unique ID
-      description: |
-        Year (YYYY): This four-digit component specifies the year when the ID was generated, offering clarity on the temporal context of the ID over a long span of time.
-        Month (MM): Following the year, this two-digit component represents the month, ranging from 01 (January) to 12 (December), allowing the IDs to be sorted or filtered by month.
-        Day (DD): This two-digit number indicates the day of the month on which the ID was created, from 01 to 31 based on the month and year.
-        Hour (HH): This two-digit component reflects the hour when the ID was generated, based on a 24-hour clock format, ranging from 00 to 23.
-        Minute (MM): Lastly, this two-digit section captures the minute of the hour during which the ID was created, ranging from 00 to 59.  
-        The Unique ID will also be used as Date of Submission.
-      placeholder: YYYYMMDDHHMM
-    validations:
-      required: true
+      value: |
+        **Change Status** Set the Change Status by applying the appropriate label(Emergency, Scheduled, and Completed).  
+  - type: markdown
+    attributes:
+      value: |
+        **Overview:** The Request for Change (RFC) is formal request for the implementation of a Change. A Request for Change is to be submitted to Change Management for any non-standard Change (a set of standard/ routine Changes is usually defined by Change Management; these are minor Changes which do not require submission to the Change Management process). A Change is backed by a Change Owner, holding a budget for its implementation. In many cases the Change Owner is identical with the RFC initiator. Typically Changes are owned by Service Management roles (e.g. the Problem Manager or Capacity Manager) or by IT management. The RFC is a precursor to the Change Record and contains all information required to approve a Change. Further information is added as the Change progresses through its lifecycle. The level of detail depends on the size and likely impact of the Change. Often there will be references to further documents containing more detailed information, e.g. a detailed Change proposal. As major Changes are typically implemented as projects, the RFC often takes on the role of what is also known as a "Project Charter".
   - type: textarea
     id: descriptionofchange
     attributes:
@@ -44,14 +38,6 @@ body:
       value: "N/A"
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        **Risk Level** Set the Risk Level by applying the appropriate label(Low, Medium or High).
-  - type: markdown
-    attributes:
-      value: |
-        **Change Status** Set the Change Status by applying the appropriate label(Emergency, Scheduled, and Completed).
   - type: textarea
     id: backoutplan
     attributes:
