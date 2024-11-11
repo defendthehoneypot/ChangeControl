@@ -10,7 +10,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Change Status** Set the Change Status by applying the appropriate label(Emergency, Scheduled, and Completed).  
+        ### Change Status  
+        Set the Change Status by applying the appropriate label(Emergency, Scheduled, and Completed).  
   - type: markdown
     attributes:
       value: |
