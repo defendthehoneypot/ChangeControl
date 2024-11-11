@@ -20,33 +20,51 @@ body:
       placeholder: YYYYMMDDHHMM
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        **Change Owner:** will be the accounts assigned in the Issue Assignees section.  At a minimum it should identify the person requesting and performing the change.
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Set the priority of the change
-      multiple: false
-      options:
-        - Low  
-        - Normal    
-        - High  
-        - Very High (Emergency Change)
-  - type: textarea
-    id: referencechangeproposal
-    attributes:
-      label: Reference to Change Proposal
-      description: If the Change is related to a Change Proposal submitted at an earlier stage, identify it here or indicate N/A.
-      value: "N/A"
-    validations:
-      required: true
   - type: textarea
     id: descriptionofchange
     attributes:
       label: Description of the Change being applied for
       description: Write a short description of the change being implemented
       value: "N/A"
+    validations:
+      required: true
+  - type: textarea
+    id: changereason
+    attributes:
+      label: Description of the Change reason
+      description: Write a short description of the change is required
+      value: "N/A"
+    validations:
+      required: true
+  - type: textarea
+    id: impactanalysis
+    attributes:
+      label: Description of impact analysis
+      description: Write a short description of the impact analysis
+      value: "N/A"
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: |
+        **Risk Level** Set the Risk Level by applying the appropriate label(Low, Medium or High).
+  - type: markdown
+    attributes:
+      value: |
+        **Change Status** Set the Change Status by applying the appropriate label(Emergency, Scheduled, and Completed).
+  - type: textarea
+    id: backoutplan
+    attributes:
+      label: Backout Plan
+      description: Describe the backout plan should the changes need to be rolled back.
+      value: "N/A"
+    validations:
+      required: true
+  - type: input
+    id: changedatetime
+    attributes:
+      label: Change Date Time
+      description: Enter the date and time of change.
+      placeholder: YYYYMMDDHHMM
     validations:
       required: true
