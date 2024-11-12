@@ -26,7 +26,7 @@ body:
       description: Write a short description of the change being implemented
       value: "N/A"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: changereason
     attributes:
@@ -34,7 +34,7 @@ body:
       description: Write a short description of the change is required
       value: "N/A"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: impactanalysis
     attributes:
@@ -42,7 +42,7 @@ body:
       description: Write a short description of the impact analysis
       value: "N/A"
     validations:
-      required: true
+      required: false
   - type: textarea
     id: backoutplan
     attributes:
@@ -50,7 +50,7 @@ body:
       description: Describe the backout plan should the changes need to be rolled back.
       value: "N/A"
     validations:
-      required: true
+      required: false
   - type: input
     id: changedatetime
     attributes:
@@ -58,4 +58,4 @@ body:
       description: Enter the date and time of change.
       placeholder: YYYYMMDDHHMM
     validations:
-      required: true
+      required: false
