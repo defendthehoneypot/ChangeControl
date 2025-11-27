@@ -7,8 +7,8 @@ body:
       value: |
         ## Change Request Form
         Provide enough detail for CAB review and audit. Apply labels for **Risk Level** (Low/Medium/High) and **Change Status** (Emergency/Scheduled/Completed).
-        ![Risk Level](../../images/risklevel.png)
-        ![Change Status](../../images/changestatus.png)
+        ![Risk Level](../images/risklevel.png)
+        ![Change Status](../images/changestatus.png)
 
   - type: input
     id: change_id
@@ -45,7 +45,7 @@ body:
     attributes:
       label: Date Submitted
       description: ISO 8601 date/time with timezone
-      placeholder: "2024-05-12T02:00:00Z"
+      placeholder: 2024-05-12T02:00:00Z
     validations:
       required: true
 
@@ -184,7 +184,7 @@ body:
     attributes:
       label: Planned Start
       description: Scheduled start date/time (include timezone)
-      placeholder: "2024-05-12T02:00:00Z"
+      placeholder: 2024-05-12T02:00:00Z
     validations:
       required: true
 
@@ -193,7 +193,7 @@ body:
     attributes:
       label: Planned End
       description: Scheduled end date/time (include timezone)
-      placeholder: "2024-05-12T03:00:00Z"
+      placeholder: 2024-05-12T03:00:00Z
     validations:
       required: true
 
