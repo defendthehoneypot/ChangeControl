@@ -7,8 +7,8 @@ body:
       value: |
         ## Change Request Form
         Provide enough detail for CAB review and audit. Apply labels for **Risk Level** (Low/Medium/High) and **Change Status** (Emergency/Scheduled/Completed).
-        ![Risk Level](../../images/risklevel.png)
-        ![Change Status](../../images/changestatus.png)
+        ![Risk Level](../images/risklevel.png)
+        ![Change Status](../images/changestatus.png)
 
   - type: input
     id: change_id
