@@ -45,7 +45,7 @@ body:
     attributes:
       label: Date Submitted
       description: ISO 8601 date/time with timezone
-      placeholder: 2024-05-12T02:00:00Z
+      placeholder: "2024-05-12T02:00:00Z"
     validations:
       required: true
 
@@ -184,7 +184,7 @@ body:
     attributes:
       label: Planned Start
       description: Scheduled start date/time (include timezone)
-      placeholder: 2024-05-12T02:00:00Z
+      placeholder: "2024-05-12T02:00:00Z"
     validations:
       required: true
 
@@ -193,7 +193,7 @@ body:
     attributes:
       label: Planned End
       description: Scheduled end date/time (include timezone)
-      placeholder: 2024-05-12T03:00:00Z
+      placeholder: "2024-05-12T03:00:00Z"
     validations:
       required: true
 
@@ -202,7 +202,7 @@ body:
     attributes:
       label: Maintenance Window
       description: Standard window or free-form description
-      placeholder: Sun 02:00-03:00 UTC
+      placeholder: "Sun 02:00-03:00 UTC"
     validations:
       required: false
 
