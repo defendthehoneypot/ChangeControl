@@ -12,8 +12,9 @@ body:
     id: change_id
     attributes:
       label: Change ID
-      description: Unique identifier (e.g., CHG-2024-001)
-      placeholder: CHG-YYYY-###
+      description: Automatically generated ID based on creation date and issue number
+      placeholder: "YYYYMMDD-<issue-number>"
+      value: "{{ date | date: '%Y%m%d' }}-{{ issue.number }}"
     validations:
       required: true
 
