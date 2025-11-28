@@ -6,9 +6,7 @@ body:
     attributes:
       value: |
         ## Change Request Form
-        Provide enough detail for CAB review and audit. Apply labels for **Risk Level** (Low/Medium/High) and **Change Status** (Emergency/Scheduled/Completed).
-        ![Risk Level](https://raw.githubusercontent.com/defendthehoneypot/ChangeControl/main/images/risklevel.png)
-        ![Change Status](https://raw.githubusercontent.com/defendthehoneypot/ChangeControl/main/images/changestatus.png)
+        Provide enough detail for CAB review and audit.  
 
   - type: input
     id: change_id
